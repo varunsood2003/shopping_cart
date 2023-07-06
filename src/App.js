@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/shopping_cart" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
